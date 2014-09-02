@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BinjCover</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="blank"></string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_text">Search Results here</string>
+    <string name="title_activity_resro_profile">Resro 1</string>
+    <string name="find_local">Find A Place Near You NOW</string>
+    <string name="chse_frm_blo">-----Or Choose From Below-----</string>
+    <string name="resto_head">Resto Home Img</string>
+    <string name="txtvw_rest_1">Restautent 1</string>
+    <string name="resto_place">Location 1 (hub)</string>
+    <string name="title_activity_main_view">Main_view</string>
+    <string name="create_table">Create Table And Invite Friends</string>
+    <string name="deals">Current Deals Available</string>
+
+</resources>
