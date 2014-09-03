@@ -30,6 +30,18 @@
             android:name=".ResroProfile"
             android:label="@string/title_activity_resro_profile" >
         </activity>
+        <activity
+            android:name=".RestoProf2"
+            android:label="@string/title_activity_resto_prof2" >
+        </activity>
+        <activity
+            android:name=".CreateTable"
+            android:label="@string/title_activity_create_table" >
+        </activity>
+        <activity
+            android:name=".TableCreated"
+            android:label="@string/title_activity_table_created" >
+        </activity>
     </application>
 
 </manifest>

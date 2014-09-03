@@ -1,29 +1,23 @@
 package com.binjcover.test;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class ResroProfile extends Activity {
+public class TableCreated extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_resro_profile);
+		setContentView(R.layout.activity_table_created);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.resro_profile, menu);
+		getMenuInflater().inflate(R.menu.table_created, menu);
 		return true;
-	}
-
-	public void onClick_create_table(View view) {
-		startActivity(new Intent(this, CreateTable.class));
 	}
 
 	@Override

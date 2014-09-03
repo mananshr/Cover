@@ -3,6 +3,8 @@
 
     <string name="app_name">BinjCover</string>
     <string name="hello_world">Hello world!</string>
+    <string name="download_button">Download</string>
+    <string name="download_text">Press the button to download music</string>
     <string name="action_settings">Settings</string>
     <string name="blank"></string>
     <string name="title_activity_search">SearchActivity</string>
@@ -16,5 +18,10 @@
     <string name="title_activity_main_view">Main_view</string>
     <string name="create_table">Create Table And Invite Friends</string>
     <string name="deals">Current Deals Available</string>
+    <string name="title_activity_resto_prof2">Resto 2</string>
+    <string name="title_activity_create_table">CreateTable</string>
+    <string name="title_activity_table_created">TableCreated</string>
+    <string name="tbl_created">Table Created Add Friends</string>
+    <string name="add_frnds">Add Friends</string>
 
 </resources>

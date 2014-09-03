@@ -6,12 +6,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/screen_1_f"
-    tools:context="com.binjcover.test.SearchActivity" >
+    android:background="@drawable/create_table"
+    tools:context="com.binjcover.test.CreateTable" >
 
-    <TextView
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLargeInverse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/search_text" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="155dp"
+        android:visibility="visible" />
 
 </RelativeLayout>

@@ -37,6 +37,14 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 
 	}
+	
+	public void onClick_Resto_prof_2(View view) {
+
+		Intent intent = new Intent(this, RestoProf2.class);
+
+		startActivity(intent);
+
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {

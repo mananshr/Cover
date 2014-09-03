@@ -3,7 +3,7 @@
     android:id="@+id/home_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
+    android:background="@drawable/home_f"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -29,17 +29,31 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
         android:layout_alignLeft="@+id/search_btn"
         android:layout_below="@+id/search_btn"
         android:layout_marginTop="102dp"
+        android:background="@android:color/transparent"
         android:onClick="onClick_Resto_prof"
         android:text="@string/blank"
-        android:background="@android:color/transparent"
         android:textColor="@android:color/transparent"
         android:textColorHint="@android:color/transparent"
-        android:textColorLink="@android:color/transparent" 
-         />
+        android:textColorLink="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@android:color/transparent"
+        android:onClick="onClick_Resto_prof_2"
+        android:text="@string/blank"
+        android:textColor="@android:color/transparent"
+        android:textColorHint="@android:color/transparent"
+        android:textColorLink="@android:color/transparent" />
 
 </RelativeLayout>
