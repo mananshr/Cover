@@ -80,8 +80,11 @@ public final class R {
         public static final int deals=0x7f050010;
         public static final int download_button=0x7f050002;
         public static final int download_text=0x7f050003;
+        public static final int error=0x7f050018;
         public static final int find_local=0x7f050009;
         public static final int hello_world=0x7f050001;
+        public static final int loading=0x7f050017;
+        public static final int ok=0x7f050016;
         public static final int resto_head=0x7f05000b;
         public static final int resto_place=0x7f05000d;
         public static final int search_text=0x7f050007;
